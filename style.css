@@ -17,9 +17,13 @@
     justify-content: flex-end;
 }
 
-.b{
-    width: 90px;
-    background-color: orange;
+.barra button{
+    height: 24px;
+    color: white;
+    padding: 0px 4px;
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 7px;
 }
 
 /*main*/
