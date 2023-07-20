@@ -18,7 +18,7 @@
     justify-content: flex-end;
 }
 
-.barra button{
+.superiore button, .fine button{
     height: 24px;
     color: white;
     padding: 0px 4px;
@@ -74,23 +74,40 @@ img{
 
 .inf{
     justify-content: space-between;
+    background-color: rgb(46, 46, 46);
+    
 }
 
 .imp{
     width: 120px;
-    background-color: orange;
 }
 
 .menu{
     width: 440px;
-    background-color: orange;
 }
 
 .fine{
-    width: 70px;
-    background-color: orange;
+    width: 80px;
 }
 
+.imp button, .menu button{
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    padding-right: 6px;
+}
 
+button span{
+    display: inline-block;
+    font-size: 10px;
+}
 
-
+.fine button{
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+    color: red;
+    border-radius: 0;
+}
