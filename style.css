@@ -11,7 +11,7 @@
 }
 
 .barra{
-    width: 100%;
+    width: 100vw;
     height: 50px;
     background-color: black;
     justify-content: flex-end;
@@ -20,4 +20,30 @@
 .barra div{
     width: 90px;
     background-color: orange;
+}
+
+/*main*/
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: violet;
+    justify-content: center;
+    align-items: center;
+}
+
+.user{
+    width: 90%;
+    height: 90%;
+    background-color: blueviolet;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.user div{
+    width: 235px;
+    height: 155px;
+    background-color: blue;
+    border: 1px solid black;
+    display: inline-block;
 }
