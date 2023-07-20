@@ -17,7 +17,7 @@
     justify-content: flex-end;
 }
 
-.barra div{
+.b{
     width: 90px;
     background-color: orange;
 }
@@ -51,5 +51,26 @@
 }
 
 /*footer*/
+
+.inf{
+    justify-content: space-between;
+}
+
+.imp{
+    width: 120px;
+    background-color: orange;
+}
+
+.menu{
+    width: 440px;
+    background-color: orange;
+}
+
+.fine{
+    width: 70px;
+    background-color: orange;
+}
+
+
 
 
