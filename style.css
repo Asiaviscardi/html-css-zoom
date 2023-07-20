@@ -3,3 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*header*/
+
+.flex{
+    display: flex;
+}
+
+.barra{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    justify-content: flex-end;
+}
+
+.barra div{
+    width: 90px;
+    background-color: orange;
+}
